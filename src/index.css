@@ -1,0 +1,28 @@
+
+.box-content {
+  /* Add styles for your centered box content */
+  padding: 100px;
+  border: 2px solid black;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-left: 180px;
+  margin-top: 100px;
+}
+
+.input label{
+  position: absolute;
+  left: -99999px;
+}
+
+.input input[type='text']{
+  flex-grow: 1;
+  max-width: 100%;
+  min-height: 48px;
+  font-size: 1rem;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  outline: none;
+  margin-left: 235px;
+}
